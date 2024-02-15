@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Street Fighter Matching Game</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Street Fighter Matching Game</h1>
+  </header>
+  <section id="game-container">
+
+    <!-- This is where we display the flip and match counters -->
+    <div id="ui-container">
+      <h3>Flips: <span id="flip-count">0</span></h3>
+      <h3>Matches: <span id="match-count">0</span></h3>
+    </div>
+
+    <!-- This is where our cards will be rendered -->
+    <div id="card-container">
+    </div>
+
+  </section>
+
+  <div class="btn-container">
+    <button class="reset-btn" onclick="resetGame()">Reset</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.6/underscore-min.js"
+    integrity="sha512-2V49R8ndaagCOnwmj8QnbT1Gz/rie17UouD9Re5WxbzRVUGoftCu5IuqqtAM9+UC3fwfHCSJR1hkzNQh/2wdtg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://bit.ly/3HbMbbF"></script>
+  <script src="tests.js"></script>
+  <script src="script.js"></script>
+  <audio id="audio1" src="audio\Ryu_Hadouken_Sound_Effect.mp3"></audio>
+  <audio id="audio2" src="audio\Ken_Hadouken_Sound_Effect.mp3"></audio>
+  <audio id="audio3" src="audio\Rashid_Sound_Effect.mp3"></audio>
+  <audio id="audio4" src="audio\Karin_Sound_Effect.mp3"></audio>
+  <audio id="audio5" src="audio\Menat_Sound_Effect.mp3"></audio>
+  <audio id="audio6" src="audio\Juri_Sound_Effect.mp3"></audio>
+</body>
+
+</html>
