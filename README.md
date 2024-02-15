@@ -1,5 +1,7 @@
 # Street Fighter Matching Game
 
+<img src="img/SFMatchingScreenshot.png">
+
 ## Overview
 Street Fighter Matching Game is a memory matching game featuring characters from the Street Fighter V series. The objective of the game is to flip pairs of cards to reveal matching characters.
 
